@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+html, body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Red Hat Mono', monospace;
+    background-color: rgb(218, 197, 255)
+}
+/* using  margin: 0 auto with width 50% - when you have specified a width on the object that you have 
+applied margin: 0 auto to, the object will sit centrally within it's parent container */
+.container {
+    width: 360px;
+    margin-top: 200px;
+}
+.title {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+#input-field {
+    height: 46px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    vertical-align: middle;
+    font-size: 20px;
+}
+#add-item {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 4px;
+    vertical-align: middle;
+    font-size:30px;
+}
+.tasks {
+    margin-top: 30px;
+    color: rgb(49, 49, 49);
+}
+.paragraph-styling {
+    cursor: pointer;
+    font-size:20px;
+}
